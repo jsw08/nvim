@@ -1,6 +1,6 @@
 > [!NOTE]
 > # JSW's neovim configuration
-> This is my neovim configuration based on kickstart-modular.nvim with some of my own tweaks. I'll probably merge it into my [NixOS](https://github/jsw08/nixos) configuration once it's finished. In the meanwhile, here's the original README.md.
+> This is my neovim configuration based on [kickstart-modular.nvim](https://github.com/dam9000/kickstart-modular.nvim) with some of my own tweaks. I'll probably merge it into my [NixOS](https://github/jsw08/nixos) configuration once it's finished. In the meanwhile, here's the original README.md.
 
 <hr>
 
