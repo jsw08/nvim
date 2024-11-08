@@ -1,6 +1,6 @@
 return {
-  { -- Autoformat
-    'stevearc/conform.nvim',
+{ -- Autoformat
+  'stevearc/conform.nvim',
     event = { 'BufWritePre' },
     cmd = { 'ConformInfo' },
     keys = {
@@ -32,10 +32,10 @@ return {
         }
       end,
       formatters_by_ft = {
-        lua = { 'stylua' },
+        lua = { 'stylua', 'lua_ls' },
         python = { "black" },
         javascript = { "prettier" },
-        csharp = { "csharpier" }
+        csharp = { "astyle" }
         -- Conform can also run multiple formatters sequentially
         -- python = { "isort", "black" },
         --
