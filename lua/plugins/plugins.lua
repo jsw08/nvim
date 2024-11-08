@@ -8,29 +8,23 @@ require('lazy').setup({
   -- NOTE: Plugins can be added with a link (or for a github repo: 'owner/repo' link).
   'tpope/vim-sleuth', -- Detect tabstop and shiftwidth automatically
 
-  -- NOTE: Plugins can also be added by using a table,
-  -- with the first argument being the link and the following
-  -- keys can be used to configure plugin behavior/loading/etc.
+  require "qol/autopairs",
+  require "qol/indent_line",
+  require "qol/neo-tree",
+  require "qol/tokyonight",
+  require "qol/gitsigns",
+  require "qol/mini",
+  require "qol/todo-comments",
+  require "qol/which-key",
 
-  require 'kickstart/plugins/gitsigns',
-
-  require 'kickstart/plugins/which-key',
-
-  require 'kickstart/plugins/telescope',
-
-  require 'kickstart/plugins/lspconfig',
-
-  require 'kickstart/plugins/conform',
-
-  require 'kickstart/plugins/cmp',
-
-  require 'kickstart/plugins/tokyonight',
-
-  require 'kickstart/plugins/todo-comments',
-
-  require 'kickstart/plugins/mini',
-
-  require 'kickstart/plugins/treesitter',
+  require "lsp/cmp",
+  require "lsp/conform",
+  require "lsp/debug",
+  require "lsp/lint",
+  require "lsp/lspconfig",
+  require "lsp/telescope",
+  require "lsp/treesitter"
+  
 
 }, {
   ui = {
