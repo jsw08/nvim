@@ -157,7 +157,7 @@ return {
         -- ts_ls = {},
         --
         csharp_ls = {},
-        ts_ls = {},
+        deno = {},
         lua_ls = {},
       }
 
