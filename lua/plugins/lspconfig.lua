@@ -51,6 +51,7 @@ return {
           map('<leader>ws', require('telescope.builtin').lsp_dynamic_workspace_symbols, '[W]orkspace [S]ymbols')
           map('<leader>r', vim.lsp.buf.rename, '[R]e[n]ame')
           map('<leader>ca', vim.lsp.buf.code_action, '[C]ode [A]ction', { 'n', 'x' })
+          map('<leader>f', vim.lsp.buf.format, '[F]ormat buffer')
 
 
           -- The following two autocommands are used to highlight references of the
